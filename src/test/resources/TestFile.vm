@@ -1,0 +1,25 @@
+// This file tests basic push, pop, and arithmetic operations
+push constant 10
+push constant 20
+add
+push constant 30
+sub
+neg
+push constant 40
+push constant 50
+eq
+push constant 60
+push constant 70
+lt
+push constant 80
+push constant 90
+gt
+push constant 5
+push constant 3
+and
+push constant 4
+push constant 6
+or
+not
+pop local 0
+pop argument 2

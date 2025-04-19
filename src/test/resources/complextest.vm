@@ -1,0 +1,12 @@
+// Complex VM test file
+push constant 10   // Push 10 to the stack
+push constant 20
+add                // Add the top two elements
+pop local 0        // Pop the result to local segment index 0
+
+// Empty lines and comments
+
+push constant 30
+sub                // Subtract top two elements
+push argument 2    // Push argument segment index 2
+pop this 3         // Pop to this segment index 3

@@ -1,0 +1,10 @@
+push constant 10
+pop local 0
+add
+sub
+label LOOP
+goto END
+if-goto CONTINUE
+function Main.main 2
+call Sys.init 3
+return
